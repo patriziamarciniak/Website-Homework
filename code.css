@@ -1,0 +1,69 @@
+body{
+    background-image: url(lot-samolotem.jpg);
+}
+h1{
+    text-align: center;
+    color: azure;
+    font-size: xx-large;
+    font-family: monospace, "Lucida Console";
+    background-color: black;
+    border: double;
+}
+button{
+    position: fixed;
+    background-color: black;
+    color: azure;
+    width: 18%;
+    height: 10%;
+    font-size: 20px;
+    font-family: monospace, "Lucida Console";
+    border-radius: 3px;
+}
+textarea{
+    position: fixed;
+    top: 25%;
+    width: 17%;
+    height: 5%;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+table{
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    width: 98%;
+    max-height: 55%;
+    overflow-y: scroll;
+    background-color: black;
+    color: azure;
+    font-family: monospace, "Lucida Console";
+    border: azure 2px;
+}
+td{
+    width: 50em;
+}
+#add_b,#txt_aeroname {
+    left: 10px;
+}
+#rem_b, #txt_del {
+    left: 21%;
+}
+#addwork_b, #txt_aeroser, #txt_ser, #txt_sertime {
+    left: 41%;
+}
+#red_b, #txt_redtime, #txt_redtimename {
+    right: 21%;
+}
+#do_b, #txt_treshold {
+    right: 10px;
+}
+#txt_redtime,#txt_ser{
+    top: 31%;
+}
+#txt_sertime{
+    top: 37%;
+}
+
